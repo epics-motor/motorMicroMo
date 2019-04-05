@@ -21,12 +21,13 @@ microMo_DBD += base.dbd
 # Include dbd files from all support applications:
 #ifdef ASYN
 microMo_DBD += asyn.dbd
+microMo_DBD += drvAsynSerialPort.dbd
 #endif
 microMo_DBD += motorSupport.dbd
 microMo_DBD += devMicroMo.dbd
 
 # Add all the support libraries needed by this IOC
-microMo_LIBS += microMo
+microMo_LIBS += MicroMo
 microMo_LIBS += motor
 #ifdef ASYN
 microMo_LIBS += asyn
