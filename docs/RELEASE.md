@@ -1,5 +1,20 @@
 # motorMicroMo Releases
 
+## __R1-0-1 (2020-05-11)__
+R1-0-1 is a release based on the master branch.  
+
+### Changes since R1-0
+
+#### New features
+* None
+
+#### Modifications to existing features
+* None
+
+#### Bug fixes
+* Commit [c1b16db](https://github.com/epics-motor/motorMicroMo/commit/c1b16db9a8af59b85ce1253f7482a880b1b92103): Include ``$(MOTOR)/modules/RELEASE.$(EPICS_HOST_ARCH).local`` instead of ``$(MOTOR)/configure/RELEASE``
+* Commit [04331b5](https://github.com/epics-motor/motorMicroMo/commit/04331b5cfa223a530591a6f2273b414531d8d151): Eliminated compiler warnings
+
 ## __R1-0 (2019-04-18)__
 R1-0 is a release based on the master branch.  
 
