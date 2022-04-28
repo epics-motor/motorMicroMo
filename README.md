@@ -1,7 +1,8 @@
 # motorMicroMo
 EPICS motor drivers for the following [MicroMo](https://www.micromo.com/) controllers: MVP2001 B02
 
-[![Build Status](https://travis-ci.org/epics-motor/motorMicroMo.png)](https://travis-ci.org/epics-motor/motorMicroMo)
+[![Build Status](https://github.com/epics-motor/motorMicroMo/actions/workflows/ci-scripts-build.yml/badge.svg)](https://github.com/epics-motor/motorMicroMo/actions/workflows/ci-scripts-build.yml)
+<!--[![Build Status](https://travis-ci.org/epics-motor/motorMicroMo.png)](https://travis-ci.org/epics-motor/motorMicroMo)-->
 
 motorMicroMo is a submodule of [motor](https://github.com/epics-modules/motor).  When motorMicroMo is built in the ``motor/modules`` directory, no manual configuration is needed.
 
